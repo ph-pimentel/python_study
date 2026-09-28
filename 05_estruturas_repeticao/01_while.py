@@ -51,13 +51,27 @@
 #     i += 1
 # print(f"Resultado divisão: {i} | Resto: {divisao}")
 
-# -- Média --
-soma = 0
-i = 1
-while i <= 3:
-    n = int(input(f"{i} Digite o número: "))
-    soma += n
-    i += 1
-print(f"Média: {soma/3}")
+# -- Exemplo Média --
+#soma = 0  
+#i = 1 
+#while i <= 3:
+#    n = int(input("Entre com três números -> ")) 
+#    soma += n
+#    i += 1
+#print(f"Média: {soma/3}")
 
-# To continue
+# -- Exercício 5.11
+
+#deposito = float(input("Digite o deposito inicial: "))
+#tax_juros = int(input("Digite a taxa de juros: "))
+#mes = 1 # Contador
+#montante = 0
+#total = 0 #Acumulador 
+#while mes <= 24: 
+    # montante = deposito x (1 + tax_juros)**mes
+#   montante = deposito * (1 + (tax_juros/100))**mes
+#   total += montante
+#   print(f"Valor do rendimento: {montante:5.2f} | Mês: {mes} | Rendimento Real {montante - deposito:5.2f}")
+#   mes += 1 
+#print(f"Total de ganho com juros: {total:5.2f}")
+
